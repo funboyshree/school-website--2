@@ -12,8 +12,61 @@
 
 </head>
 
+
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 --><!--DONE-->  
+
 <body>
-    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my_navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Xt Savier High School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="my_navbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#">What's New</  a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#ContactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="announcement">
+            <marquee id="marqueestyle" onmouseover="this.stop();" onmouseout="this.start();">
+                *** Feel free to ask queries on xtsavier@gmail.com ***
+            </marquee>
+        </div>
+        <iframe id="video"  src="https://www.youtube.com/embed/9Frow8HMh74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="ContactUs">
+            <h2 class="text-capitalize text-left">Contact Us</h2>
+        </div>
+        <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <iframe src=https://www.google.com/maps/embed?pb!1m18!1m12!1m3!1d3773.7450650632586!2d72.82905131472747!3d18.942675087164623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b870ba222b0b%3A0xa35fb09925b0951d!2sSt.%20Xavier&#39;s%20College!5e0!3m2!1sen!2sin!4v1634798856215!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy""></iframe>
+        </div>
+        <div id="Details">
+            <!--do not forget photo-->
+            <img src="" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+            <h3>Principal name: </h3>
+            <h4>Xavier dcosta</h4>
+            <div class="contact_1">
+                <a href="mailto:xtsavierhighschool.com?Subject=Hi">
+                    <h5><i class="fa fa-envelope"></i>Xtsavier@gmail.com</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-instagram"></i>Xtsavierhighschoolid</h5>
+                </a>
+                <a href="#">
+                    <h5><i class="fa fa-phone-square"></i>xxxxxxxxxxx</h5>
+                </a>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container">
         <!--Campus Life-->
@@ -32,11 +85,11 @@
                 <!--2nd Campus Life-->
                 <div class="travel_mainDiv">
                     <!--Give appropriate class below for the image img-responsive-->
-                    <img class="" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
                     <h4 class="text-capitalize"><kbd>school library</kbd></h4>
                     <hr>
                     <!--Give classes below text-success text-left-->
-                    <h5 class="text-capitalize">Was built in 1980</h5>
+                    <h5 class="text-capitalize text-success text-left">Was built in 1980</h5>
                     <p class="text-muted text-left">Write something about the mentioned place</p>
 
                 </div>
@@ -44,11 +97,11 @@
                 <div class="travel_mainDiv">
                     <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
                     <!-- Give text-capitalize below to make the first letters in Capitals-->
-                    <h4 class=""><kbd>school auditorium</kbd></h4>
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
                     <hr>
                     <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
                     <!-- Give text-muted below to show the text in grey color-->
-                    <p class="text-left">Write something about the mentioned place</p>
+                    <p class="text-left text-muted">Write something about the mentioned place</p>
                 </div>
 
             </div>
@@ -99,7 +152,7 @@
 
         <div id="school_achievement3" class="collapse">
             <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
-            <div class="" id="achievementsID">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
                 <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
             </div>
 
